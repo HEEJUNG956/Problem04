@@ -5,6 +5,8 @@ VisualStudioVersion = 17.1.32210.238
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3페이지 level 1 11번 - 내적", "3페이지 level 1 11번 - 내적\3페이지 level 1 11번 - 내적.csproj", "{DCDEDD52-8F24-44C9-8555-63AEC2786B1B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3페이지 level 1 12번 - 음양더하기", "3페이지 level 1 12번 - 음양더하기\3페이지 level 1 12번 - 음양더하기.csproj", "{0779C843-08D6-4990-B7E2-02C98378BB38}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{DCDEDD52-8F24-44C9-8555-63AEC2786B1B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DCDEDD52-8F24-44C9-8555-63AEC2786B1B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DCDEDD52-8F24-44C9-8555-63AEC2786B1B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0779C843-08D6-4990-B7E2-02C98378BB38}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0779C843-08D6-4990-B7E2-02C98378BB38}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0779C843-08D6-4990-B7E2-02C98378BB38}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0779C843-08D6-4990-B7E2-02C98378BB38}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
