@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3페이지 level 1 14번 - 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3페이지 level 1 15번 - 로또의최고순위 최저순위", "3페이지 level 1 15번 - 로또의최고순위 최저순위\3페이지 level 1 15번 - 로또의최고순위 최저순위.csproj", "{DF92E23F-40A1-44BE-8F37-67EA37CB026A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3페이지 level 1 16번 - 신고결과받기", "3페이지 level 1 16번 - 신고결과받기\3페이지 level 1 16번 - 신고결과받기.csproj", "{FB840DC5-2637-487E-BBA6-C1D6685E996F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{DF92E23F-40A1-44BE-8F37-67EA37CB026A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DF92E23F-40A1-44BE-8F37-67EA37CB026A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DF92E23F-40A1-44BE-8F37-67EA37CB026A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FB840DC5-2637-487E-BBA6-C1D6685E996F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FB840DC5-2637-487E-BBA6-C1D6685E996F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FB840DC5-2637-487E-BBA6-C1D6685E996F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FB840DC5-2637-487E-BBA6-C1D6685E996F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
