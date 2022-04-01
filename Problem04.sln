@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3페이지 level 1 12번 - 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3페이지 level 1 13번 - 없는숫자더하기", "3페이지 level 1 13번 - 없는숫자더하기\3페이지 level 1 13번 - 없는숫자더하기.csproj", "{80A5C09A-8A8A-4FCA-9604-068677B60AF7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3페이지 level 1 14번 - 숫자문자열과 영단어", "3페이지 level 1 14번 - 숫자문자열과 영단어\3페이지 level 1 14번 - 숫자문자열과 영단어.csproj", "{0C34F930-9760-420D-A068-5CC8E790E300}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{80A5C09A-8A8A-4FCA-9604-068677B60AF7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{80A5C09A-8A8A-4FCA-9604-068677B60AF7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{80A5C09A-8A8A-4FCA-9604-068677B60AF7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0C34F930-9760-420D-A068-5CC8E790E300}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0C34F930-9760-420D-A068-5CC8E790E300}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0C34F930-9760-420D-A068-5CC8E790E300}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0C34F930-9760-420D-A068-5CC8E790E300}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
