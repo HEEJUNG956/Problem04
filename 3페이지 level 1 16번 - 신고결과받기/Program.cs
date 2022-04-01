@@ -43,13 +43,11 @@ namespace _3페이지_level_1_16번___신고결과받기
                     }
                 }
             }
-            for (int i = 0; i < result.Count; i++)
+            foreach(var item in result)
             {
-                Console.WriteLine(result.Values.ToArray());
+                Console.Write("{0} " , item.Value);
             }
-
-            return result.Values.ToArray();
-
+            Console.WriteLine();
         }
         
     }
