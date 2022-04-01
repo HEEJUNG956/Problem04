@@ -14,11 +14,6 @@ namespace _3페이지_level_1_16번___신고결과받기
             string[] report= { "muzi frodo", "apeach frodo", "frodo neo", "muzi neo", "apeach muzi" };
             int k = 2;
 
-            Solution(id_list, report, k);
-            
-        }
-        private static int[] Solution(string[] id_list, string[] report, int k)
-        {
             List<string> reportList = report.ToList().Distinct().ToList();
             Dictionary<string, int> reportCountLog = new Dictionary<string, int>();
             Dictionary<string, List<string>> reportLog = new Dictionary<string, List<string>>();
@@ -54,6 +49,8 @@ namespace _3페이지_level_1_16번___신고결과받기
             }
 
             return result.Values.ToArray();
+
         }
+        
     }
 }
