@@ -10,6 +10,7 @@ namespace _3페이지_level_1_16번___신고결과받기
     {
         static void Main(string[] args)
         {
+            // 확인용
             string[] id_list = { "muzi", "frodo", "apeach", "neo" };
             string[] report= { "muzi frodo", "apeach frodo", "frodo neo", "muzi neo", "apeach muzi" };
             int k = 2;
