@@ -10,8 +10,6 @@ namespace _3페이지_level_1_07번___체육복
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("DD");
-
         }
     }
 }

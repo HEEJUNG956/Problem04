@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{92C8BEF9-06CA-4C3A-91DB-4FB83737F4E3}</ProjectGuid>
+    <ProjectGuid>{E056F9F0-89CC-4962-B802-10B34EC5AA5A}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <RootNamespace>_3페이지_level_1_07번___체육복</RootNamespace>
-    <AssemblyName>_3페이지_level_1_07번___체육복</AssemblyName>
+    <AssemblyName>3페이지 level 1 07번 - 체육복</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
