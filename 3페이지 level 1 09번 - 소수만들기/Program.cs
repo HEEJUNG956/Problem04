@@ -23,7 +23,7 @@ namespace _3페이지_level_1_09번___소수만들기
 
         static void Main(string[] args)
         {
-            Console.Write("주어질 숫자 입력하기 => ");
+            Console.Write("주어질 배열의 크기 입력하기 => ");
             string nums1 = Console.ReadLine();
             int num2 = int.Parse(nums1);
             int[] nums = new int[num2];
