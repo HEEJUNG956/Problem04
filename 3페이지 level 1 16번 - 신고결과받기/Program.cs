@@ -15,40 +15,43 @@ namespace _3페이지_level_1_16번___신고결과받기
             string[] report= { "muzi frodo", "apeach frodo", "frodo neo", "muzi neo", "apeach muzi" };
             int k = 2;
 
-            List<string> reportList = report.ToList().Distinct().ToList();
-            Dictionary<string, int> reportCountLog = new Dictionary<string, int>();
-            Dictionary<string, List<string>> reportLog = new Dictionary<string, List<string>>();
-            Dictionary<string, int> result = new Dictionary<string, int>();
+            int[] answer = new int[id_list.Length];
+            int[] receive = new int[id_list.Length];
 
-            foreach (string id in id_list)
+            report = report.Distinct().ToArray();
+            Console.WriteLine("======================report 확인========================");
+            for(int i = 0; i < report.Length; i++)
             {
-                reportCountLog[id] = 0;
-                reportLog[id] = new List<string>();
-                result[id] = 0;
+                Console.WriteLine(report[i]);
             }
 
-            foreach (string reportItem in reportList)
+            for(int i = 0; i < report.Length; i++)
             {
-                var split = reportItem.Split(' ');
-                ++reportCountLog[split[1]];
-                reportLog[split[0]].Add(split[1]);
+                string report_str = report[i].Split(' ')[1];
+                int report_index = Array.IndexOf(id_list, report_str);
+                receive[report_index]++;
             }
 
-            foreach (var countLog in reportCountLog.Where((e) => e.Value >= k))
+            for(int i = 0; i < report.Length; i++)
             {
-                foreach (var log in reportLog)
+                string report_str = report[i].Split(' ')[1];
+                int report_index = Array.IndexOf(id_list, report_str);
+
+                if(receive[report_index] >= k)
                 {
-                    if (log.Value.Contains(countLog.Key))
-                    {
-                        ++result[log.Key];
-                    }
+                    string send_str = report[i].Split(' ')[0];
+                    int send_index = Array.IndexOf(id_list, send_str);
+                    answer[send_index]++;
                 }
             }
-            foreach(var item in result)
+            Console.WriteLine("======================================답=============================");
+            for(int i = 0; i < answer.Length; i++)
             {
-                Console.Write("{0} " , item.Value);
+                Console.WriteLine(answer[i]);
             }
-            Console.WriteLine();
+
+
+            
         }
         
     }
